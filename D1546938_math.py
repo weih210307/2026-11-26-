@@ -9,11 +9,8 @@ def isPrime(n)->bool:
 def tArea(n,h) -> float:
     return float(n*h/2)
 
-
 def ed(x1,y1,x2,y2) -> float:
     return ((x1-x2)**2+(y1-y2)**2)**0.5
-
-
 
 if __name__ == "__main__":
     print(ed(2,1,7,3))
